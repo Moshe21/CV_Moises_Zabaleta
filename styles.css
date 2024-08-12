@@ -2,6 +2,38 @@ body {
     background-color: #353643;
   }
 
+button{
+display: inline;
+}
+.navbar-default{
+  background-color: #353643;
+  border-color: black ;
+
+
+ 
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: row; 
+  display: inline;
+  margin:0%;/* Asegura que los elementos estén en fila */
+}
+
+.navbar-nav li {
+  list-style: none;
+  
+  margin-right: 10px; /* Espaciado entre elementos */
+}
+.container-fluid{
+  border-color: black ;
+  margin: 0%;
+}
+a{
+    background-color: #001a36;
+    color:#ff0000
+    
+
+}
   .fondo{
     background-color: #353643;
   }
