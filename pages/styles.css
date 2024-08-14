@@ -1,6 +1,14 @@
 body {
     background-color: #353643;
   }
+.col-md-6{
+ 
+  border: black solid 4px;
+  background-color: #353643;
+  border-color: black ;
+ 
+}
+
 
 button{
 display: inline;
@@ -30,7 +38,7 @@ display: inline;
 }
 a{
     background-color: #001a36;
-    color:#ff0000
+    color:#585858
     
 
 }
@@ -61,6 +69,10 @@ a{
  li, p {
     color: #889eb1;
     
+  }
+  .habilidades{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #c6d7eb;
   }
   .nombre{
 
