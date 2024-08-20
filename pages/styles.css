@@ -8,7 +8,14 @@ body {
   border-color: black ;
  
 }
+.texto_cuadro{
 
+  font-size:350%;
+  margin: 9%;
+  align-items:center;
+    background-color: #007bff;
+
+}
 
 button{
 display: inline;
