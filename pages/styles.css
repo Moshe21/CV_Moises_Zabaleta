@@ -1,20 +1,14 @@
 body {
     background-color: #353643;
   }
-.col-md-6{
- 
-  border: black solid 4px;
-  background-color: #353643;
-  border-color: black ;
- 
-}
+
 .texto_cuadro{
 
-  font-size:350%;
+  max-width: 95%;
   margin: 9%;
   align-items:center;
-    background-color: #007bff;
-
+   /* background-color: #012a42;
+*/
 }
 
 button{
@@ -91,3 +85,17 @@ a{
     color: #050404;
   }
   
+  #Linea_1{
+
+    background-color: #131A1F;
+  }
+
+  #Linea_2{
+
+    background-color: #5D666D;
+  }
+.Imagen_margen{
+
+  max-width: 95%;
+  margin: 5%;
+}
