@@ -1,5 +1,5 @@
 <html lang="en"><head>
-	<title>Portafolio</title>
+	<title>Proyectos</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="../Bootstrap/css/style1.css">
 </head>
 
-<body>
+<body >
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -26,44 +26,113 @@
 						<a href="../Pages/habilidades.html">Habilidades</a>
 					</li>
 					<li class="active2"><a href="../Pages/Proyectos.html">Proyectos</a></li>
-					<li><a href="../Pages/Contacto.html">Contacto</a></li>
+					<!--<li><a href="pages/Contacto.html">Contacto</a></li> -->
 				</ul>
 			</div>
 		</div>
 	</nav>
 
-	<div style="background-color:#e8ffa8; border: black solid 4px;">
+	<div style="background-color:#5D666D; border: black solid 4px;">
 		<div class="container">
 
-			<div class="row">
-				<div class="col-sm-4 " style="margin-top: 7%;">
-					<img src="../Bootstrap/imagenes/imagen1.png" class="img-responsive" style="width: 100%;" alt="Image">
-				</div>
-				<div class="col-sm-8" style="margin-top: 4%; margin-bottom: 3%;">
-					<a href="https://sketchfab.com/3d-models/johns-coyote-modelo-alejandra-tamayo-rivera-dc61612a7c44416b97c9f45ac4e572f3" target="_blank"><img src="../Bootstrap/imagenes/titulo.png" class="img-responsive" style="width: 100%;" alt="Image"></a>
+			<style>
+				body {
+					font-family: Arial, sans-serif;
+					margin: 0;
+					padding: 0;
+					background-color: #5D666D;
+					color: #5D666D;
+				}
+				header {
+					background-color: #001a36;
+					color: #fff;
+					padding: 1rem;
+					text-align: center;
+				}
+				.container {
+					max-width: 1200px;
+					margin: 0 auto;
+					padding: 2rem;
+				}
+				.project-grid {
+					display: grid;
+					grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+					gap: 1.5rem;
+				}
+				.project {
+					background-color: #5D666D;
+					border: 1px solid #5D666D;
+					border-radius: 8px;
+					box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+					overflow: hidden;
+					text-align: center;
+				}
+				.project img {
+					max-width: 100%;
+					height: auto;
+				}
+				.project h3 {
+					background-color: #001a36;
+					color: #fff;
+					margin: 0;
+					padding: 0.5rem;
+				}
+				.project p {
+					padding: 1rem;
+				}
+				.project a {
+					display: inline-block;
+					margin: 1rem 0;
+					padding: 0.5rem 1rem;
+					color: #fff;
+					background-color: #001a36;
+					text-decoration: none;
+					border-radius: 4px;
+				}
+				.project a:hover {
+					background-color: #001a36;
+				}
+				footer {
+					text-align: center;
+					padding: 1rem;
+					background-color: #001a36;
+					color: #fff;
+					margin-top: 2rem;
+				}
+			</style>
+		</head>
+		<body>
+			<header>
+				<h1>Proyectos del Desarrollador</h1>
+				<p>Explora los proyectos y páginas desarrolladas en web y Python</p>
+			</header>
+			<div class="container">
+				<div class="project-grid">
+					<div class="project">
+						<img src="/img/img_pagina_A_LA_CARTA.png" alt="Proyecto 1">
+						<h3>Proyecto 1</h3>
+						<p>Descripción breve del proyecto 1.</p>
+						<a href="https://alacarta.usbtopia.usbbog.edu.co/" target="_blank">Visitar</a>
+					</div>
+					<div class="project">
+						<img src="/img/img_pagina_ECOMERCE.png" alt="Proyecto 2">
+						<h3>Proyecto 2</h3>
+						<p>Descripción breve del proyecto 2.</p>
+						<a href="https://pedido-moshe.vercel.app/" target="_blank">Visitar</a>
+					</div>
+					<div class="project">
+						<img src="project3.jpg" alt="Proyecto 3">
+						<h3>Proyecto 3</h3>
+						<p>Descripción breve del proyecto 3.</p>
+						<a href="https://proyecto3.com" target="_blank">Visitar</a>
+					</div>
 				</div>
 			</div>
-
-			<div class="row">
-				<div class="col-sm-4" style="margin-top: 5%;">
-					<img src="../Bootstrap/imagenes/imagen2.png" class="img-responsive" style="width: 100%;" alt="Image">
-				</div>
-				<div class="col-sm-8" style="margin-top: 4%; margin-bottom: 3%;">
-					<a href="https://www.artstation.com/artwork/6byd6W" target="_blank"><img src="../Bootstrap/imagenes/titulo2.png" class="img-responsive" style="width: 100%;" alt="Image"></a>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-4" style="margin-top: 5%;">
-					<img src="../Bootstrap/imagenes/imagen3.png" class="img-responsive" style="width: 100%;" alt="Image">
-				</div>
-				<div class="col-sm-8" style="margin-bottom: 3%;">
-					<a href="https://www.artstation.com/artwork/OmgRGb" target="_blank"><img src="../Bootstrap/imagenes/titulo3.png" class="img-responsive" style="width: 100%;" alt="Image"></a>
-				</div>
-			</div>
-		</div>
-	</div>
-	
+			<footer>
+				<p>© 2024 Desarrollador Web & Python. Todos los derechos reservados.</p>
+			</footer>
+		</body>
+		</html>
 
 
 
