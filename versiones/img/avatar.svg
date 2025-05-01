@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="100" fill="#2A2A2A"/>
+  
+  <!-- Face shape -->
+  <circle cx="100" cy="90" r="60" fill="#F5D0A9"/>
+  
+  <!-- Hair -->
+  <path d="M40 80 Q60 20 100 30 Q140 20 160 80" fill="#4A2C2A"/>
+  <path d="M40 80 Q70 100 40 150 L30 150 Q30 120 40 80" fill="#4A2C2A"/>
+  <path d="M160 80 Q130 100 160 150 L170 150 Q170 120 160 80" fill="#4A2C2A"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="75" cy="80" rx="8" ry="6" fill="#333333"/>
+  <ellipse cx="125" cy="80" rx="8" ry="6" fill="#333333"/>
+  
+  <!-- Eyebrows -->
+  <path d="M65 70 Q75 65 85 70" stroke="#333333" stroke-width="3" fill="none"/>
+  <path d="M115 70 Q125 65 135 70" stroke="#333333" stroke-width="3" fill="none"/>
+  
+  <!-- Mouth -->
+  <path d="M80 110 Q100 125 120 110" stroke="#333333" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M95 85 Q100 100 105 85" stroke="#333333" stroke-width="2" fill="none"/>
+  
+  <!-- Glasses -->
+  <rect x="65" y="75" width="20" height="12" rx="5" ry="5" fill="none" stroke="#555555" stroke-width="2"/>
+  <rect x="115" y="75" width="20" height="12" rx="5" ry="5" fill="none" stroke="#555555" stroke-width="2"/>
+  <line x1="85" y1="80" x2="115" y2="80" stroke="#555555" stroke-width="2"/>
+  
+  <!-- Shirt collar -->
+  <path d="M60 150 Q100 180 140 150" fill="#444444"/>
+</svg>

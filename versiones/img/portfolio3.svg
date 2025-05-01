@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="300" fill="#F0F0F0"/>
+  
+  <!-- Dashboard Layout -->
+  <rect x="20" y="20" width="460" height="260" rx="10" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="460" height="50" rx="10" fill="#6772E5"/>
+  <circle cx="50" cy="45" r="15" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="80" y="37" width="100" height="16" rx="3" fill="#FFFFFF" opacity="0.8"/>
+  <rect x="350" y="37" width="40" height="16" rx="3" fill="#FFFFFF" opacity="0.5"/>
+  <rect x="400" y="37" width="40" height="16" rx="3" fill="#FFFFFF" opacity="0.5"/>
+  
+  <!-- Sidebar -->
+  <rect x="20" y="70" width="80" height="210" rx="0" fill="#F8F8F8"/>
+  <circle cx="60" cy="100" r="10" fill="#6772E5" opacity="0.7"/>
+  <rect x="35" y="130" width="50" height="8" rx="2" fill="#B0B0B0"/>
+  <rect x="35" y="150" width="50" height="8" rx="2" fill="#B0B0B0"/>
+  <rect x="35" y="170" width="50" height="8" rx="2" fill="#B0B0B0"/>
+  <rect x="35" y="190" width="50" height="8" rx="2" fill="#B0B0B0"/>
+  <rect x="35" y="210" width="50" height="8" rx="2" fill="#B0B0B0"/>
+  <rect x="35" y="230" width="50" height="8" rx="2" fill="#B0B0B0"/>
+  
+  <!-- Main Content -->
+  
+  <!-- Chart 1 -->
+  <rect x="120" y="80" width="160" height="90" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="130" y="90" width="80" height="12" rx="2" fill="#333333"/>
+  <rect x="130" y="110" width="140" height="50" rx="0" fill="#F8F8F8"/>
+  <polyline points="140,150 160,130 180,140 200,120 220,130 240,110 260,125" stroke="#6772E5" stroke-width="2" fill="none"/>
+  
+  <!-- Chart 2 -->
+  <rect x="290" y="80" width="170" height="90" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="300" y="90" width="80" height="12" rx="2" fill="#333333"/>
+  
+  <!-- Pie Chart -->
+  <circle cx="350" cy="135" r="25" fill="#F8F8F8"/>
+  <path d="M350,135 L350,110 A25,25 0 0,1 371,147 Z" fill="#6772E5"/>
+  <path d="M350,135 L371,147 A25,25 0 0,1 329,147 Z" fill="#FF9F43"/>
+  <path d="M350,135 L329,147 A25,25 0 0,1 350,110 Z" fill="#FF6B6B"/>
+  
+  <!-- Chart 3 -->
+  <rect x="120" y="180" width="340" height="90" rx="5" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="130" y="190" width="100" height="12" rx="2" fill="#333333"/>
+  
+  <!-- Bar Chart -->
+  <rect x="140" y="220" width="20" height="40" rx="2" fill="#6772E5"/>
+  <rect x="170" y="230" width="20" height="30" rx="2" fill="#6772E5"/>
+  <rect x="200" y="210" width="20" height="50" rx="2" fill="#6772E5"/>
+  <rect x="230" y="240" width="20" height="20" rx="2" fill="#6772E5"/>
+  <rect x="260" y="215" width="20" height="45" rx="2" fill="#6772E5"/>
+  <rect x="290" y="225" width="20" height="35" rx="2" fill="#6772E5"/>
+  <rect x="320" y="200" width="20" height="60" rx="2" fill="#6772E5"/>
+  <rect x="350" y="230" width="20" height="30" rx="2" fill="#6772E5"/>
+  <rect x="380" y="235" width="20" height="25" rx="2" fill="#6772E5"/>
+  <rect x="410" y="220" width="20" height="40" rx="2" fill="#6772E5"/>
+  
+  <!-- X axis line -->
+  <line x1="130" y1="260" x2="430" y2="260" stroke="#E0E0E0" stroke-width="1"/>
+</svg>

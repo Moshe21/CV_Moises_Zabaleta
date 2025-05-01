@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="analyticsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EAEAEA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="500" height="300" fill="url(#analyticsBg)"/>
+  
+  <!-- Header -->
+  <rect x="30" y="30" width="440" height="50" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="50" y="45" width="120" height="20" rx="4" fill="#5B58E6"/>
+  <circle cx="440" cy="55" r="15" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1"/>
+  <circle cx="400" cy="55" r="15" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="260" y="45" width="80" height="20" rx="4" fill="#F5F5F5" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Main Content Area -->
+  <rect x="30" y="100" width="280" height="170" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="330" y="100" width="140" height="80" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="330" y="190" width="140" height="80" rx="8" fill="#FFFFFF" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Chart Title -->
+  <rect x="50" y="120" width="150" height="15" rx="2" fill="#333333"/>
+  
+  <!-- Line Chart -->
+  <polyline points="50,220 100,180 150,210 200,150 250,190 290,140" 
+          stroke="#5B58E6" stroke-width="3" fill="none"/>
+          
+  <polyline points="50,240 100,230 150,200 200,220 250,210 290,180" 
+          stroke="#FF8A65" stroke-width="3" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Chart Grid Lines -->
+  <line x1="50" y1="140" x2="290" y2="140" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="50" y1="170" x2="290" y2="170" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="50" y1="200" x2="290" y2="200" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="50" y1="230" x2="290" y2="230" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <line x1="50" y1="140" x2="50" y2="240" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="100" y1="140" x2="100" y2="240" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="150" y1="140" x2="150" y2="240" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="200" y1="140" x2="200" y2="240" stroke="#E0E0E0" stroke-width="1"/>
+  <line x1="250" y1="140" x2="250" y2="240" stroke="#E0E0E0" stroke-width="1"/>
+  
+  <!-- Chart Points -->
+  <circle cx="50" cy="220" r="4" fill="#FFFFFF" stroke="#5B58E6" stroke-width="2"/>
+  <circle cx="100" cy="180" r="4" fill="#FFFFFF" stroke="#5B58E6" stroke-width="2"/>
+  <circle cx="150" cy="210" r="4" fill="#FFFFFF" stroke="#5B58E6" stroke-width="2"/>
+  <circle cx="200" cy="150" r="4" fill="#FFFFFF" stroke="#5B58E6" stroke-width="2"/>
+  <circle cx="250" cy="190" r="4" fill="#FFFFFF" stroke="#5B58E6" stroke-width="2"/>
+  <circle cx="290" cy="140" r="4" fill="#FFFFFF" stroke="#5B58E6" stroke-width="2"/>
+  
+  <!-- First Side Card -->
+  <rect x="345" y="120" width="110" height="15" rx="2" fill="#333333"/>
+  
+  <circle cx="360" cy="155" r="20" fill="#5B58E6"/>
+  <text x="360" y="160" font-family="Arial" font-size="14" fill="#FFFFFF" text-anchor="middle">87%</text>
+  
+  <rect x="390" y="145" width="60" height="8" rx="1" fill="#E0E0E0"/>
+  <rect x="390" y="160" width="40" height="8" rx="1" fill="#E0E0E0"/>
+  
+  <!-- Second Side Card -->
+  <rect x="345" y="210" width="110" height="15" rx="2" fill="#333333"/>
+  
+  <!-- Small Bar Chart -->
+  <rect x="350" y="240" width="10" height="20" rx="1" fill="#5B58E6"/>
+  <rect x="365" y="235" width="10" height="25" rx="1" fill="#5B58E6"/>
+  <rect x="380" y="230" width="10" height="30" rx="1" fill="#5B58E6"/>
+  <rect x="395" y="245" width="10" height="15" rx="1" fill="#5B58E6"/>
+  <rect x="410" y="225" width="10" height="35" rx="1" fill="#5B58E6"/>
+  <rect x="425" y="238" width="10" height="22" rx="1" fill="#5B58E6"/>
+  <rect x="440" y="232" width="10" height="28" rx="1" fill="#5B58E6"/>
+  
+  <!-- Legend -->
+  <circle cx="60" cy="250" r="4" fill="#5B58E6"/>
+  <rect x="70" y="245" width="40" height="8" rx="1" fill="#333333"/>
+  
+  <circle cx="130" cy="250" r="4" fill="#FF8A65"/>
+  <rect x="140" y="245" width="40" height="8" rx="1" fill="#333333"/>
+</svg>

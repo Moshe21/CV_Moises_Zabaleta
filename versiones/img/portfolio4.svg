@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4158D0;stop-opacity:1" />
+      <stop offset="46%" style="stop-color:#C850C0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFCC70;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="500" height="300" fill="url(#bgGradient)"/>
+  
+  <!-- Dark overlay for content -->
+  <rect x="25" y="25" width="450" height="250" rx="15" fill="#1A1A1A" fill-opacity="0.8"/>
+  
+  <!-- Music App Interface -->
+  
+  <!-- Header Section -->
+  <rect x="50" y="50" width="400" height="50" rx="10" fill="#2E2E2E"/>
+  <circle cx="75" cy="75" r="15" fill="#C850C0"/>
+  <rect x="100" y="65" width="80" height="10" rx="2" fill="#FFFFFF"/>
+  <rect x="100" y="80" width="50" height="6" rx="2" fill="#808080"/>
+  <circle cx="400" cy="75" r="12" fill="transparent" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="395" y1="75" x2="405" y2="75" stroke="#FFFFFF" stroke-width="2"/>
+  <line x1="400" y1="70" x2="400" y2="80" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Music Player Controls -->
+  <rect x="50" y="110" width="400" height="60" rx="5" fill="#2E2E2E"/>
+  <circle cx="90" cy="140" r="20" fill="#C850C0"/>
+  <polygon points="85,130 85,150 100,140" fill="#FFFFFF"/>
+  
+  <!-- Progress Bar -->
+  <rect x="130" y="135" width="280" height="6" rx="3" fill="#4D4D4D"/>
+  <rect x="130" y="135" width="120" height="6" rx="3" fill="#C850C0"/>
+  <circle cx="250" cy="138" r="6" fill="#FFFFFF"/>
+  
+  <!-- Time Indicators -->
+  <text x="130" y="155" font-family="Arial" font-size="12" fill="#808080">2:14</text>
+  <text x="400" y="155" font-family="Arial" font-size="12" fill="#808080" text-anchor="end">4:30</text>
+  
+  <!-- Playlist Section -->
+  <rect x="50" y="180" width="400" height="80" rx="5" fill="#2E2E2E"/>
+  
+  <!-- Song Item 1 -->
+  <rect x="60" y="190" width="380" height="25" rx="3" fill="#3E3E3E"/>
+  <text x="70" y="207" font-family="Arial" font-size="12" fill="#FFFFFF">1. Dreams</text>
+  <text x="430" y="207" font-family="Arial" font-size="12" fill="#808080" text-anchor="end">3:47</text>
+  
+  <!-- Song Item 2 (active) -->
+  <rect x="60" y="220" width="380" height="25" rx="3" fill="#C850C0" fill-opacity="0.3"/>
+  <text x="70" y="237" font-family="Arial" font-size="12" fill="#FFFFFF">2. Night Vision</text>
+  <text x="430" y="237" font-family="Arial" font-size="12" fill="#808080" text-anchor="end">4:30</text>
+  <circle cx="380" cy="232" r="8" fill="#C850C0"/>
+  <rect x="376" y="229" width="2" height="6" fill="#FFFFFF"/>
+  <rect x="382" y="229" width="2" height="6" fill="#FFFFFF"/>
+  
+  <!-- Song Item 3 -->
+  <rect x="60" y="250" width="380" height="25" rx="3" fill="#3E3E3E"/>
+  <text x="70" y="267" font-family="Arial" font-size="12" fill="#FFFFFF">3. Echoes</text>
+  <text x="430" y="267" font-family="Arial" font-size="12" fill="#808080" text-anchor="end">5:12</text>
+  
+  <!-- Decorative Music Notes -->
+  <path d="M460,80 C465,70 470,85 475,75" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+  <circle cx="475" cy="75" r="3" fill="#FFFFFF"/>
+  
+  <path d="M440,60 C445,50 450,65 455,55" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+  <circle cx="455" cy="55" r="3" fill="#FFFFFF"/>
+  
+  <path d="M35,220 C40,210 45,225 50,215" stroke="#FFFFFF" stroke-width="1" fill="none"/>
+  <circle cx="50" cy="215" r="3" fill="#FFFFFF"/>
+</svg>

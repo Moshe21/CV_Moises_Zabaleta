@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Map Background -->
+  <rect width="800" height="400" fill="#1A1A1A"/>
+  
+  <!-- Map Grid Lines -->
+  <g stroke="#333333" stroke-width="0.5">
+    <line x1="0" y1="0" x2="800" y2="0"/>
+    <line x1="0" y1="50" x2="800" y2="50"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="150" x2="800" y2="150"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="250" x2="800" y2="250"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="350" x2="800" y2="350"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    
+    <line x1="0" y1="0" x2="0" y2="400"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+  </g>
+  
+  <!-- Land Masses (Stylized Dark Mode) -->
+  <path d="M100,100 C150,80 200,120 250,110 C300,100 350,120 400,130 C450,140 500,120 550,140 C600,160 650,150 700,170 L700,300 C650,280 600,290 550,270 C500,250 450,270 400,260 C350,250 300,270 250,280 C200,290 150,270 100,290 Z" 
+        fill="#2A2A2A"/>
+  
+  <path d="M50,180 C80,170 100,190 120,180 C140,170 160,190 180,200 C200,210 220,190 240,200 L240,300 C220,290 200,310 180,300 C160,290 140,310 120,300 C100,290 80,310 50,300 Z" 
+        fill="#2A2A2A"/>
+  
+  <!-- Roads and Paths -->
+  <path d="M400,130 L400,260" stroke="#3D3D3D" stroke-width="3"/>
+  <path d="M250,110 L250,280" stroke="#3D3D3D" stroke-width="3"/>
+  <path d="M550,140 L550,270" stroke="#3D3D3D" stroke-width="3"/>
+  
+  <path d="M250,200 L550,200" stroke="#3D3D3D" stroke-width="3"/>
+  <path d="M250,150 L550,150" stroke="#3D3D3D" stroke-width="3"/>
+  <path d="M250,250 L550,250" stroke="#3D3D3D" stroke-width="3"/>
+  
+  <!-- Location Markers -->
+  <circle cx="400" cy="200" r="15" fill="#333333" stroke="#444444" stroke-width="2"/>
+  <circle cx="400" cy="200" r="5" fill="#FF6B6B"/>
+  
+  <circle cx="300" cy="150" r="8" fill="#333333" stroke="#444444" stroke-width="1"/>
+  <circle cx="500" cy="250" r="8" fill="#333333" stroke="#444444" stroke-width="1"/>
+  <circle cx="350" cy="250" r="8" fill="#333333" stroke="#444444" stroke-width="1"/>
+  <circle cx="450" cy="150" r="8" fill="#333333" stroke="#444444" stroke-width="1"/>
+  
+  <!-- Water Bodies -->
+  <path d="M600,50 C650,30 700,50 750,40 L750,350 C700,330 650,350 600,330 Z" 
+        fill="#252525"/>
+  
+  <path d="M50,50 C100,30 150,50 200,40 L200,150 C150,130 100,150 50,130 Z" 
+        fill="#252525"/>
+  
+  <!-- Map Labels -->
+  <text x="400" y="185" font-family="Arial" font-size="10" fill="#CCCCCC" text-anchor="middle">NEW YORK</text>
+  <text x="300" y="140" font-family="Arial" font-size="8" fill="#AAAAAA" text-anchor="middle">BROOKLYN</text>
+  <text x="500" y="260" font-family="Arial" font-size="8" fill="#AAAAAA" text-anchor="middle">QUEENS</text>
+  <text x="650" y="100" font-family="Arial" font-size="10" fill="#888888" text-anchor="middle">ATLANTIC OCEAN</text>
+</svg>
