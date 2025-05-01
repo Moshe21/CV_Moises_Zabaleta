@@ -448,6 +448,14 @@ ul {
 .btn-submit:hover {
     background-color: #0069d9;
 }
+.map{
+    width: 100%;
+    
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #222;
+}
+
 
 /* Media Queries */
 @media (max-width: 992px) {

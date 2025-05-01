@@ -1,119 +1,401 @@
-<html lang="en"><head>
-	<title>Portafolio</title>
-	<meta charset="utf-8">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
-
-	<link rel="stylesheet" href="Bootstrap/css/style.css">
-	
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/pages/styles.css">
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moshe- Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<!-- <a class="navbar-brand" href="#">AlejaT</a> -->
-			</div>
-			<div class="navbar-collapse collapse" id="myNavbar">
-				<ul class="nav navbar-nav nav-tabs nav-justified">
-					<li class="active2"><a href="index.html" style="background-color: #0c0b30;">Inicio</a></li>
-					<li><a href="pages/habilidades.html">Habilidades</a></li>
-					<li><a href="pages/Proyectos.html">Proyectos</a></li>
-					<!--<li><a href="pages/Contacto.html">Contacto</a></li> -->
-				</ul> <!-- Corrección de cierre de la lista -->
-			</div>
-		</div>
-	</nav>
-	
-
-	<div class="row">
-		<div class="col-sm-6 h-100"  >
-			<center><img src="img/foto_moshe.png" class="img-responsive" style="width: 100%; margin-left: 3%; border: #000000 solid 4px;" alt="Image"></a></center>
-		</div>
-		<div class="col-sm-6 h-100" style="border: black solid 4px;">
-			<P></P>
-		<!--       DIVISION NORMAL
-
-		
-		-->
-		<section style="display:flex">
-                  
-                    
-                      
-                        
-			<div class="col-sm">
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="avatar">
+                    <img src="img/foto perfil.jpg" alt="Richard Norrick">
+                </div>
+                <h2 class="name">Moises Zabaleta Cruz</h2>
+                <p class="job-title">Software Developer</p>
+                
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="bi bi-envelope"></i>
+                        <span>moshe.zabaleta.cruz@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="bi bi-telephone"></i>
+                        <span>(+57) 3142707164</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="bi bi-calendar3"></i>
+                        <span id="age"></span>
+                        <span id="birthdate">10 de septiembre, 1998</span>
+                    </div>                                                              
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>Ubicación: Tocancipa, Colombia</span>
+                    </div>
+                
+                
+                
+                </div>
+            </div>
+            <div class="col-sm">
 				<a ref="https://github.com/Moshe21?tab=repositories/">
-				<img id="foto_qr" src="/img/QR.png" alt="QR" style="border: black solid 4px;width:200PX;">
+				<img id="foto_qr" src="/img/QR.png" alt="QR" style="width:200PX;">
 				
-				</a>     
+				</a>  
+                <div>
+                    <p><strong>Universidad de San Buenaventura</strong> | <em>2022 – 2025</em>
+                    </p>
+                    <p><strong>Platzi</strong> | <em>2021 – Actualidad</em></span>
+                    </p> 
+                 
 			</div>
 			<div class="col-sm">  
 			<hr>
-			<h2>Moises Zabaleta Cruz</h2>
-			  <h4 >Full Stack</h4>
-				<p>Ubicación: Tocancipa, Colombia</p>
-				<p>Celular: 3142707164</p>
-                            <a href="https://cv-moises-zabaleta.vercel.app/"><p>https://cv-moises-zabaleta.vercel.app/</p></a>
-							<a href="https://github.com/Moshe21"><p>https://github.com/Moshe21</p></a>
-						</div>
-	  
-		</section>
-		  <h4>Experiencia Laboral</h4>
-		  <p><strong>RCC</strong> - Aux Desarrollo Software  - 2022-2024</p>
-		  <p>Desarrollo programa a la medida para toda la gestion adminitrastiva y finaciera</p>
-		  <hr>
-		</section>
-			<h4>Educación</h4>
-      <p><strong>UNIVERSIDAD SAN BUENAVENTURA</strong> - TECNOLOGIA EN DERROLLO SOFTWARE - 2022-2024</p>
-      <p>Estudio altamente enfocado en base de datos y programas de interfaz</p>
-      <hr>
-      <p><strong>PLATZI</strong> - DESARROLLO SOFTWARE Y HABILIADADES BLANDAS - 2021-2024</p>
-      <h4>Habilidades Técnicas</h4>
-      <strong><p>HTML, CSS, JavaScript,Diseño Grafico, Bootstrap,C++,MYSQL,</p></strong></strong>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="/img/MySQL_CV.png" alt="SQL">
-            <h5>SQL</h5>
-        <br>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="/img/programacion_C++.png" alt="C++">
-            <h5>C++</h5>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="/img/DISEÑO_ILLUSTRATOR.jpg" alt="Graphic design">
-            <div class="carousel-caption d-none d-md-block"></div>
-            <h5>FRONT-END</h5>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-	</div>
+            
+            <div class="download-resume">
+                <a href="#" class="btn-download">
+                    <i class="bi bi-download"></i> Download Resume
+                </a>
+            </div>
+        </aside>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#Resumen" class="nav-link active">Resumen</a></li>
+                    <li><a href="#Experiencia" class="nav-link">Experiencia</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Resumen Section -->
+            <section id="Resumen" class="section active">
+                <div class="section-header">
+                    <h1>Me presento</h1>
+                </div>
+                <div class="section-content">
+                    <p class="intro-text">
+                        Soy analista de datos con sólida formación en análisis estadístico y visualización de información. 
+                        Mi experiencia incluye el manejo avanzado de herramientas clave como Python para análisis predictivo, 
+                        SQL para gestión de bases de datos, y Power BI para crear dashboards interactivos que facilitan la toma 
+                        de decisiones. 
+                    
+                    </p>
+                    <p class="sub-intro">
+                        
+                        En el aspecto técnico, manejo:
+                        
+                        <ol class="skills-list">
+                            <li>Python (pandas, scikit-learn, numpy) para análisis estadístico y machine learning 
+                            </li>
+                            <li>MySQL para consultas complejas, optimización de bases de datos, programación en SQL y triggers que automatizan la información
+                            </li>
+                            <li>Power BI y Tableau para visualización de datos
+                            </li>
+                            <li>HTML, CSS,Bootstrap y JavaScript para desarrollo web
+                            </li>
+                            <li>SCRUM y metodologías ágiles para gestión de proyectos
+                            </li>
+                            <li>Illustrator es ideal para crear gráficos vectoriales
+                            </li>
+                            <li>Photoshop es ideal para editar imágenes rasterizadas
+                            </li>
+                            <li>Figma es ideal para crear Figma para prototipado UI/UX
+                            </li> 
+                            <li>MongoDB para bases de datos NoSQL
+                            </li>
+                            <li>Git y GitHub para control de versiones
+                            </li>
+                            
+                            
 
+                        </ol>
+                    </p> 
+                    
+                    <h3 class="section-title">Areas</h3>
+                
 
-</body></html>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class=" bi bi-code-slash"></i>
+                                
+                               
+                            </div>
+                            <div class="service-content">
+                                <h4>Web Development</h4>
+                                <p>Construyo aplicaciones web robustas, escalables y dinamicas
+                                    utilizando las últimas tecnologías. </p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Manejo de datos</h4>
+                                <p>Experiencia en limpieza, transformación, análisis exploratorio de datos 
+                                    (EDA), y desarrollo de modelos predictivos. 
+                                </p>
+                                </div>
+                        </div>
+                        
+                        
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Diseño Grafico</h4>
+                                <p>Experiencia en diseño gráfico orientado a la creación de 
+                                    identidades visuales, diseño de interfaces y materiales 
+                                    publicitarios</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Mobile Development</h4>
+                                <p>Desarrollo aplicaciones Enfoque en aplicaciones 
+                                    escalables, intuitivas y de alto rendimiento para en Android.</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experiencia Section -->
+            <section id="Experiencia" class="section ">
+                <div class="section-header">
+                    <h1>Experiencia Laboral</h1>
+                </div>
+               
+                <div class="services-grid">
+                    <div class="card_company">
+                        <div class="logo_empresa">
+                            <div class="avatar">
+                                <img src="img/logo_rcc.jpg" alt="Richard Norrick">
+                            </div>
+                            
+                            
+                            
+                        </div>
+                        <div class="service-content">
+                            <h4>RCC ingeneria y proyectos <em>2021 – 2024</em></h4>
+                            
+                            <p>🏆 Logros Relevantes </p>
+                            <ul class="List_logros">
+                                <li>• Implementación de un sistema de gestión para el manejo de Órdenes de Trabajo (OT) en una empresa de mantenimiento, mejorando la trazabilidad y control operativo.</li>
+                                <li>• Desarrollo de reportes de efectividad, incluyendo análisis de ganancia porcentual bruta y neta según inversión, personal y logística.</li>
+                                <li>• Evaluación del desempeño individual del personal basado en rentabilidad de tiempo y ganancia, lo cual incrementó la productividad de la empresa en un 47.2%.</li>
+                                <li>• Facilitación de análisis más frecuentes y detallados para la toma de decisiones del equipo directivo.</li>
+                                <li>• Identificación de patrones y tendencias en grandes volúmenes de datos mediante un enfoque analítico y metódico.</li>
+                                <li>• Generación de insights accionables a partir de datos históricos de compras de materiales.</li>
+                                <li>• Mejora en el flujo de caja y reducción de gastos logísticos, alcanzando una rentabilidad del 25% al 40%.</li>
+                                <li>• Aumento de la eficiencia en el suministro de materiales para cada OT en un 30%.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card_company">
+                        <div class="logo_empresa">
+                            <div class="avatar">
+                                <img src="img/logo_doragoyparra.jpg" alt="Richard Norrick">
+                            </div>
+                            
+                            
+                            
+                        </div>
+                        <div class="service-content">
+                            <h4>Dorago & Parra <em>2025 – Actualidad</em></h4>
+                            <p>🏆 Logros Relevantes – Secretario de Administración de Conjunto Residencial:</p>
+                            <ul class="List_logros">
+                                <li>• Optimización de procesos administrativos y mejora en la atención a residentes.</li>
+                                <li>• Digitalización de documentos y actas para facilitar el acceso y archivo seguro.</li>
+                                <li>• Organización y seguimiento eficiente de asambleas, asegurando cumplimiento legal y participación activa.</li>
+                                <li>• Mejora en la comunicación con los propietarios mediante medios digitales y sistemas de notificación.</li>
+                                <li>• Gestión precisa de correspondencia y documentación legal.</li>
+                                <li>• Coordinación con proveedores y administración para seguimiento de contratos y mantenimiento.</li>
+                                <li>• Apoyo en la elaboración del presupuesto anual y control de gastos administrativos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+            </section>
+             
+       
+                            
+            
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="section ">
+                <div class="section-header">
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="section-content">
+                    <div class="portfolio-filter">
+                        <button class="filter-btn active" data-filter="all">All works</button>
+                        <button class="filter-btn" data-filter="design">Web design</button>
+                        <button class="filter-btn" data-filter="development">Web development</button>
+                        <button class="filter-btn" data-filter="branding">Branding</button>
+                    </div>
+                    
+                    <div class="portfolio-grid">
+                        <!-- Row 1 -->
+                        
+                            <div class="portfolio-item" data-category="branding">
+                                <div class="portfolio-image">
+                                    <img src="/versiones/img/img_pagina_ECOMERCE.png" alt="E-commerce Platform">
+                                </div>
+                                <a href="https://pedido-moshe.vercel.app/" target="_blank">Visitar</a>
+                                
+                                <div class="portfolio-overlay">
+                                    <a class="visitar" href="https://pedido-moshe.vercel.app/" target="_blank">Visitar</a>
+                                    <h3>NovaNight </h3>
+                                    <p>E-commerce</p>
+                                    </div>
+                            </div>
+                            <div class="portfolio-item" data-category="design">
+                                <div class="portfolio-image">
+
+                                    <img src="img/page_PlayMusic.jpg" alt="Music App">
+                                </div>
+                                <div class="portfolio-overlay">
+                                    <a class="visitar" href="https://playmusic-flame.vercel.app/#" target="_blank">Visitar</a>
+                                    <h3>PlayMusic</h3>
+                                    <p>API Mobile and Web UI Design</p>
+                                </div>
+                            </div>
+                            <div class="portfolio-item" data-category="branding">
+                                <div class="portfolio-image">
+                                    <img src="img/mockup_8_bits.png" alt="Dashboard">
+                                </div>
+                                <div class="portfolio-overlay">
+                                    <a class="visitar" href="https://task-dashboard-8-bits.vercel.app/" target="_blank">Visitar</a>   
+                                    <h3>Task Dashboard </h3>
+                                    <p>Dashboard UI/UX Design</p>
+                                </div>
+                            </div>
+                            
+<!-- Row 2 -->
+                            <div class="portfolio-item" data-category="design">
+                                <div class="portfolio-image">
+                                    <img src="img/mockup_edtech.png" alt="Edtech">
+                                </div>
+                            <div class="portfolio-overlay">
+                                <a class="visitar" href="https://page1-umber-six.vercel.app/" target="_blank">Visitar</a>
+                                <h3>Edtech</h3>
+                                <p>Modules and test</p>
+                            </div>
+                        </div>
+
+   
+                        <div class="portfolio-item" data-category="development">
+                            <div class="portfolio-image">
+                                <img src="/versiones/img/img_pagina_A_LA_CARTA.png" alt="Finance Dashboard">
+                            </div>
+                            <div class="portfolio-image">
+                                <img src="/versiones/img/img_pagina_A_LA_CARTA.png" alt="Finance Dashboard">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a class="visitar" href="https://page1-umber-six.vercel.app/" target="_blank">Visitar</a>
+                               <h3>A LA CARTA</h3>
+                                <p>Mobile Application</p>
+                            </div>
+                        </div>
+                        
+                  
+                        
+                        <div class="portfolio-item" data-category="design">
+                            <div class="portfolio-image">
+                                <img src="img/mockup_API_Ruta.png" alt="Music App">
+                            </div>
+                            <div class="portfolio-overlay">
+                                <a class="visitar" href="https://real-time-transmilenio-bogota-moshe.vercel.app/" target="_blank">Visitar</a>
+                                <h3>Ruta_bus</h3>
+                                <p>API y localizacion</p>
+                            </div>
+                        </div>             
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Section -->
+            <section id="Resumen" class="section"></section>
+            <section id="blog" class="section">
+                <div class="section-header">
+                    <h1>Blog</h1>
+                </div>
+                <div class="section-content">
+                    <p class="intro-text">
+                        En esta sección, comparto mis reflexiones y aprendizajes sobre el desarrollo de software, 
+                        la analítica de datos y el diseño gráfico. Espero que encuentres útil esta información.
+                         </p>
+                    <p>
+                        <strong>Próximamente</strong> estaré compartiendo artículos sobre temas como:
+                    </p>
+                    <div class="blog-posts">
+                        <div class="post-card">
+                            <h3>Post 1</h3>
+                            <p></p>
+                            <a href="#" class="btn-read-more">Leer más</a>
+                        </div>
+                        <div class="post-card">
+                            <h3>Post 2</h3>
+                            <p></p>
+                            <a href="#" class="btn-read-more">Leer más</a>
+                        </div>
+                        <div class="post-card">
+                            <h3>Post 3</h3>
+                            <p></p>
+                            <a href="#" class="btn-read-more">Leer más</a>
+                        </div>
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <div class="section-header">
+                    <h1>Contact</h1>
+                </div>
+                <div class="section-content">
+                    <div class="map-container">
+                        <img class="map"  src="/versiones/img/map.png" alt="hogar">
+                    </div>
+                    
+                    <h3 class="section-title">Contact Form</h3>
+                    
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
