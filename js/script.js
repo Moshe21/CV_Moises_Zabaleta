@@ -203,3 +203,21 @@ if (document.getElementById("map")) {
 window.addEventListener('load', () => {
     document.body.classList.add('loaded');
 });
+
+
+
+document.querySelector('.btn-download').addEventListener('click', function (e) {
+    e.preventDefault(); // Evita que recargue la página
+
+    const element = document.getElementById('resume-content');
+
+    const opt = {
+      margin:       0.5,
+      filename:     'Moises_Zabaleta_CV.pdf',
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2 },
+      jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save();
+  });
