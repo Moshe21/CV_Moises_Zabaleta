@@ -1,90 +1,180 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Mecánico Industrial - Moises Zabaleta</title>
+    <title>Moshe- Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
+        <!-- Sidebar -->
         <aside class="sidebar">
             <div class="profile">
                 <div class="avatar">
-                    <img src="img/foto perfil.jpg" alt="Foto Perfil">
+                    <img src="img/foto perfil.jpg" alt="Richard Norrick">
                 </div>
                 <h2 class="name">Moises Zabaleta Cruz</h2>
-                <p class="job-title">Técnico Mecánico Industrial</p>
+                <p class="job-title">Software Developer</p>
+                
                 <div class="contact-info">
-                    <div class="info-item"><i class="bi bi-envelope"></i><span>moshe.zabaleta.cruz@gmail.com</span></div>
-                    <div class="info-item"><i class="bi bi-telephone"></i><span>(+57) 3142707164</span></div>
-                    <div class="info-item"><i class="bi bi-calendar3"></i><span>10 de septiembre, 1998</span></div>
-                    <div class="info-item"><i class="bi bi-geo-alt"></i><span>Tocancipá, Colombia</span></div>
+                    <div class="info-item">
+                        <i class="bi bi-envelope"></i>
+                        <span>moshe.zabaleta.cruz@gmail.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="bi bi-telephone"></i>
+                        <span>(+57) 3142707164</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="bi bi-calendar3"></i>
+                        <span id="age"></span>
+                        <span id="birthdate">10 de septiembre, 1998</span>
+                    </div>                                                              
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>Ubicación: Tocancipa, Colombia</span>
+                    </div>
+                
+                
+                
                 </div>
             </div>
+            <div class="col-sm">
+				<a href="https://github.com/Moshe21" target="_blank">
+                    <br>
+                    <img id="foto_qr" src="/img/QR.png" alt="QR" style="width:200px;">
+                  </a>
+                <div>
+                    <p><strong>Universidad de San Buenaventura</strong> | <em>2022 – 2025</em>
+                    </p>
+                    <p><strong>Platzi</strong> | <em>2021 – Actualidad</em></span>
+                    </p> 
+                 
+			</div>
+			<div class="col-sm">  
+			<hr>
+            
             <div class="download-resume">
-                <a href="CV_Moises_Zabaleta_Mecanico_Industrial.pdf" class="btn-download" download>
-                    <i class="bi bi-download"></i> Descargar Hoja de Vida
+                <a href="#" class="btn-download">
+                    <i class="bi bi-download"></i> Download Resume
                 </a>
             </div>
         </aside>
+        
+        <!-- Main Content -->
         <main class="main-content" id="resume-content">
-            <section class="section active">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#Resumen" class="nav-link active">Resumen</a></li>
+                    <li><a href="#Experiencia" class="nav-link">Experiencia</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Resumen Section -->
+            <section id="Resumen" class="section active">
                 <div class="section-header">
-                    <h1>Perfil Profesional</h1>
+                    <h1>Me presento</h1>
                 </div>
                 <div class="section-content">
-                    <p>Técnico mecánico industrial con experiencia en mantenimiento de maquinaria pesada, montaje de estructuras, y lectura de planos mecánicos. Conocimiento en soldadura, neumática, hidráulica y seguridad industrial. Proactivo, con capacidad de trabajo en equipo y orientación al detalle.</p>
-                </div>
+                    <p class="intro-text">
+                        Soy analista de datos con sólida formación en análisis estadístico y visualización de información. 
+                        Mi experiencia incluye el manejo avanzado de herramientas clave como Python para análisis predictivo, 
+                        SQL para gestión de bases de datos, y Power BI para crear dashboards interactivos que facilitan la toma 
+                        de decisiones. 
+                    
+                    </p>
+                    <p class="sub-intro">
+                        
+                        En el aspecto técnico, manejo:
+                        
+                        <ol class="skills-list">
+                            <li>Python (pandas, scikit-learn, numpy) para análisis estadístico y machine learning 
+                            </li>
+                            <li>MySQL para consultas complejas, optimización de bases de datos, programación en SQL y triggers que automatizan la información
+                            </li>
+                            <li>Power BI y Tableau para visualización de datos
+                            </li>
+                            <li>HTML, CSS,Bootstrap y JavaScript para desarrollo web
+                            </li>
+                            <li>SCRUM y metodologías ágiles para gestión de proyectos
+                            </li>
+                            <li>Illustrator es ideal para crear gráficos vectoriales
+                            </li>
+                            <li>Photoshop es ideal para editar imágenes rasterizadas
+                            </li>
+                            <li>Figma es ideal para crear Figma para prototipado UI/UX
+                            </li> 
+                            <li>MongoDB para bases de datos NoSQL
+                            </li>
+                            <li>Git y GitHub para control de versiones
+                            </li>
+                            
+                            
 
-                <div class="section-header">
-                    <h2>Formación Académica</h2>
-                </div>
-                <div class="section-content">
-                    <ul class="skills-list">
-                        <li>SENA – Técnico en Mantenimiento Mecánico Industrial (2017 – 2019)</li>
-                        <li>Diplomado en Seguridad Industrial y Mantenimiento Preventivo (2021)</li>
-                    </ul>
-                </div>
+                        </ol>
+                    </p> 
+                    
+                    <h3 class="section-title">Areas</h3>
+                
 
-                <div class="section-header">
-                    <h2>Habilidades Técnicas</h2>
-                </div>
-                <div class="section-content">
-                    <ul class="skills-list">
-                        <li>Mantenimiento preventivo y correctivo</li>
-                        <li>Soldadura eléctrica y MIG</li>
-                        <li>Neumática e hidráulica básica</li>
-                        <li>Lectura e interpretación de planos</li>
-                        <li>Seguridad industrial y uso de EPP</li>
-                        <li>Instrumentos de medición (vernier, micrómetro)</li>
-                    </ul>
-                </div>
-
-                <div class="section-header">
-                    <h2>Experiencia Laboral</h2>
-                </div>
-                <div class="section-content">
-                    <h4>RCC Ingeniería y Proyectos (2021 – 2024)</h4>
-                    <ul class="skills-list">
-                        <li>Mantenimiento de bombas, reductores, compresores y transportadoras.</li>
-                        <li>Supervisión de montaje de estructuras metálicas.</li>
-                        <li>Seguimiento a planes de mantenimiento preventivo.</li>
-                        <li>Apoyo en compras técnicas y logística.</li>
-                    </ul>
-                    <h4>Dorago & Parra (2024 – Actualidad)</h4>
-                    <ul class="skills-list">
-                        <li>Inventario y control de herramientas de mantenimiento.</li>
-                        <li>Digitalización de manuales técnicos.</li>
-                        <li>Manejo de proveedores e insumos industriales.</li>
-                    </ul>
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class=" bi bi-code-slash"></i>
+                                
+                               
+                            </div>
+                            <div class="service-content">
+                                <h4>Web Development</h4>
+                                <p>Construyo aplicaciones web robustas, escalables y dinamicas
+                                    utilizando las últimas tecnologías. </p>
+                            </div>
+                        </div>
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-graph-up"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Manejo de datos</h4>
+                                <p>Experiencia en limpieza, transformación, análisis exploratorio de datos 
+                                    (EDA), y desarrollo de modelos predictivos. 
+                                </p>
+                                </div>
+                        </div>
+                        
+                        
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-palette"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Diseño Grafico</h4>
+                                <p>Experiencia en diseño gráfico orientado a la creación de 
+                                    identidades visuales, diseño de interfaces y materiales 
+                                    publicitarios</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-card">
+                            <div class="service-icon">
+                                <i class="bi bi-phone"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Mobile Development</h4>
+                                <p>Desarrollo aplicaciones Enfoque en aplicaciones 
+                                    escalables, intuitivas y de alto rendimiento para en Android.</p>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
                 </div>
             </section>
-        </main>
-    </div>
-
-
 
             <!-- Experiencia Section -->
             <section id="Experiencia" class="section ">

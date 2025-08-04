@@ -213,7 +213,7 @@ document.querySelector('.btn-download').addEventListener('click', function (e) {
 
     const opt = {
       margin:       0.5,
-      filename:     'Moises_Zabaleta_CV.pdf',
+      filename:     'Moises_Zabaleta_CV_mecanica.pdf',
       image:        { type: 'jpeg', quality: 0.98 },
       html2canvas:  { scale: 2 },
       jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
